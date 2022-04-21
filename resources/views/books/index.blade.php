@@ -15,9 +15,9 @@
     <h1>Enter your complete name</h1>
 
     <!-- 1. point to the appropriate form handler with the proper HTTP request method -->
-    <form action="/??????" method="?????">
+    <form action="/register-user" method="post">
     <!-- 2. add the cross site request forgery blade tag here -->
-
+    @csrf
     <div class="row">
         <div class="col col-md-6">
             <label>First Name:</label>
